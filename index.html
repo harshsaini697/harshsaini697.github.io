@@ -1,497 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-  <title>Harsh Saini </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head id="myPage">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Saini - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#myPage">Harsh Saini</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#moving-skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#social">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>Requirements Analysis, Design, Development, Testing, and Support of mission-critical applications with
+        Software Programming and Analytical skills
+        using Agile processes. Professional experience and aspirations include applications of Data Structures &
+        Algorithms, Cloud Computing, Machine
+        Learning, Big Data Analytics and Development of Web Applications.</p>
+      <button class="btn btn-default btn-sm"><a href="#social">Get in Touch</a></button>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <table id="education-table">
+        <tr>
+          <th>Qualification</th>
+          <th>Speciality</th>
+          <th>Years</th>
+          <th>Institution</th>
+        </tr>
+        <tr>
+          <td>Master of Science</td>
+          <td>Computer Science</td>
+          <td>2017 – 2019</td>
+          <td><a href="https://www.uta.edu/">University of Texas at Arlington, Texas</a></td>
+        </tr>
+        <tr>
+          <td>Bachelor of Technology</td>
+          <td>Computer Science and Engineering</td>
+          <td>2013 – 2017</td>
+          <td><a href="https://www.jiit.ac.in/">Jaypee Institute of Information Technology, India</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- <section id="skills2" class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, TypeScript, GoLang, C#, Bash, Shell, HTML, CSS, Bootstrap</li>
+                <li>Tools: Docker, Airflow, Splunk & ELK, Git, ITIL-ServiceNow, AWS, Tomcat, glide, Maven, pip, Npm,
+                    Nuget</li>
+                <li>Web Frameworks: RESTful API, React, FastAPI, Flask, Beego, Docker, GraphQL, OAuth2.0</li>
+                <li>Testing Frameworks: Jest, pytest, JUnit, Behave, Postman, Cypress, JMeter, Moq</li>
+                <li>Databases and Big Data: Postgres, MySQL, Oracle, Spark, HDFS, Pig, Hive</li>
+            </ul>
+        </section> -->
+
+    <section id="moving-skills" class="section">
+      <div class="skills">
+        <h2>Technical Skills</h2>
+        <span id="skill-write"></span>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section">
+
+      <div class="skill-tags">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">GoLang</span>
+        <span class="skill-tag">C#</span>
+        <span class="skill-tag">Bash</span>
+        <span class="skill-tag">Shell</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">Bootstrap</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Airflow</span>
+        <span class="skill-tag">Splunk & ELK</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">ITIL-ServiceNow</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">Tomcat</span>
+        <span class="skill-tag">glide</span>
+        <span class="skill-tag">Maven</span>
+        <span class="skill-tag">pip</span>
+        <span class="skill-tag">Npm</span>
+        <span class="skill-tag">Nuget</span>
+        <span class="skill-tag">RESTful API</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag">Flask</span>
+        <span class="skill-tag">Beego</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">GraphQL</span>
+        <span class="skill-tag">OAuth2.0</span>
+        <span class="skill-tag">Jest</span>
+        <span class="skill-tag">pytest</span>
+        <span class="skill-tag">JUnit</span>
+        <span class="skill-tag">Behave</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">Cypress</span>
+        <span class="skill-tag">JMeter</span>
+        <span class="skill-tag">Moq</span>
+        <span class="skill-tag">Postgres</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Oracle</span>
+        <span class="skill-tag">Spark</span>
+        <span class="skill-tag">HDFS</span>
+        <span class="skill-tag">Pig</span>
+        <span class="skill-tag">Hive</span>
+      </div>
+
+      <style>
+
+      </style>
+
+      <section id="experience" class="section">
+        <h2>Work Experience</h2>
+        <div class="work-experience">
+          <h3>Microsoft Corporations - Microsoft Teams IC3 Messaging</h3>
+          <p><em>Software Engineer II - L 62</em></p>
+          <p><strong>Sept 2022 - Present</strong></p>
+          <ul>
+            <li>Worked as a team to improve data management and compliance of data storage. Worked to
+              improve
+              Thread Migrations/User Migration.</li>
+            <li>Improved DTF framework by building libraries for efficient migration of data from different
+              Geo’s.</li>
+            <li>Collaborated across multiple teams to develop new features, stabilize systems, and improve
+              infrastructure usability.</li>
+            <li>Took part in design reviews for new features, addressed feedback, and acknowledged new
+              features.
+            </li>
+            <li>Improved migrations by 10X implementing an L1 cache solution reducing calls to DB and
+              helping in
+              improving performance with downstream services.</li>
+            <li>Performed code reviews, upheld coding standards, enhanced monitoring, and put efforts to
+              bring
+              down operational issues and improve process to have efficient operational readiness.</li>
+          </ul>
+        </div>
+
+        <div class="work-experience">
+          <h3>Amazon Web Services - S3 (Simple Storage Service)</h3>
+          <p><em>Software Dev Engineer</em></p>
+          <p><strong>June 2021 - Sept 2022</strong></p>
+          <ul>
+            <li>Participated in Agile Team to Coordinate, Design, and Develop features to support storage
+              management teams.</li>
+            <li>Worked as part of the Metering/Intelligent Tiering team to assist in products to provide
+              metering and insights across storage classes.</li>
+            <li>Collaborated in a cross-team effort to make important life cycle features included to
+              support
+              millions of use cases.</li>
+            <li>Developed complex algorithms to support test cases, integration tests, and come up with use
+              cases that consider possibilities of uses of features.</li>
+            <li>Designed Systems, System Changes, and test reflections to support Proof of concept,
+              integration
+              packages, integration methods, recommendations, capacity planning, and cost planning wrt to
+              feature request.</li>
+            <li>Participated in code reviews and worked on feature release for S3 Lifecycle Filters to
+              integrate
+              into storage metering to reflect changes based on customer configurations and also worked on
+              introducing a new storage class - Glacier Instant Retrieval Archive recently launched in
+              public.
+            </li>
+          </ul>
+        </div>
+
+        <div class="work-experience">
+          <h3>Capital One Financial Services</h3>
+          <p><em>Software Engineer</em></p>
+          <p><strong>Feb 2020 – June 2021</strong></p>
+          <ul>
+            <li>Participated in Agile Team to Co-ordinate, Design, and Develop cross-platform web
+              application
+              solutions to help multiple teams with GoLang, Flask, React, OAuth 2.0, and GraphQL.</li>
+            <li>Strengthened Cloudbox – internal storage legacy application to support storing of files in
+              S3
+              bucket with a simple UI with security controls and recognition which are generated by
+              automated
+              processes to support 30+ data engineering teams.</li>
+            <li>Re-Engineered BFF for storage application used by front line loan agents with 10.5 Million+
+              monthly files using Python FastAPI, React, OAuth 2.0.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <h2>Projects / Publications</h2>
+        <div class="project">
+          <h3>Map-Reduce Clustering on Hadoop and FIFA Visualization with ML Models</h3>
+          <p><em>Jan 2019 – May 2019</em></p>
+          <p>Technologies: PySpark, Apache Spark, Pipelining, HDFS, Distributed Systems, Jupyter Notebook,
+            Python,
+            Big Data</p>
+          <p>Used PySpark on San Diego Supercomputer to create solutions for the given dataset on distributed
+            mode
+            on the FIFA dataset to assist models to generate solutions like best Players, Teams, and winning
+            attributes. Engineered various optimizations to reduce shuffling and TTL of mappers.
+            Classification
+            was performed on a large dataset using algorithms such as Logistic Regression, Random Forest,
+            and
+            Decision Trees. Algorithms were executed on multi-node clusters to compare performance.</p>
+          <p><a href="#">Link</a></p>
+        </div>
+
+        <div class="project">
+          <h3>Medical Recommendation Intelligent System using Crawler in Java</h3>
+          <p><em>Aug 2016 – May 2017</em></p>
+          <p>Technologies: Java 8, Advanced Algorithms, Crawler, Data Mining, Regression, NLP, Artificial
+            Intelligence, Random Forest, Trees</p>
+          <p>Built a BFF in PHP to use the backend product in Java which used the novel use to predict
+            ailments
+            given the symptoms using symptoms to classify into diseases using data set crawled from
+            WebMD.com.
+          </p>
+          <p><a href="IJERTV5IS100255.pdf">Link</a></p>
+        </div>
+
+        <div class="project">
+          <h3>MaxConnect4: Artificial Intelligence Advanced Algorithm Project</h3>
+          <p><em>Aug 2017 – Dec 2017</em></p>
+          <p>Technologies: Java 8, Advanced Algorithms, Alpha Beta Pruning, A*, Artificial Intelligence, Trees
+          </p>
+          <p>Interactive AI-based Implemented using Depth-limited Minimax algorithm with alpha-beta pruning.
+            The
+            algorithm computes 18 moves or able to achieve a depth of 17 in search tree in just over 30
+            seconds.
+          </p>
+          <p><a href="#">Link</a></p>
+        </div>
+      </section>
+      <section id="quotes" class="section">
+        <div id="quotes" class="text-center">
+          <h2>Some Famous Quotes I find Appealing</h2>
+          <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <h4>"Life is about making an impact, not making an income."<br><span> - Kevin
+                    Kruse</span></h4>
+              </div>
+              <div class="item">
+                <h4>"Strive not to be a success, but rather to be of value. "<br><span> – Albert
+                    Einstein</span></h4>
+              </div>
+              <div class="item">
+                <h4>"The mind is everything. What you think you become. "<br><span> – Buddha </span>
+                </h4>
+              </div>
+              <div class="item">
+                <h4>"You can never cross the ocean until you have the courage to lose sight of the
+                  shore."<br><span> – Christopher Columbus </span></h4>
+              </div>
+              <div class="item">
+                <h4>"The only way to do great work is to love what you do."<br><span> – Steve
+                    Jobs</span></h4>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+
+      <section id="social" class="section">
+        <h2>Connect With Me</h2>
+
+      </section>
+      <footer>
+        <div class="social-information">
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> Plano, Texas
+          </div>
+          <div class="social-links">
+            <a href="http://www.linkedin.com/in/harshsaini697" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/harshsaini697" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="mailto:harsh.saini.us@gmail.com">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+        <p class="footer-text">© 2023 Harsh Saini. All rights reserved.</p>
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+      </footer>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+      var headerHeight = document.querySelector("header").offsetHeight;
+      var navLinks = document.querySelectorAll("nav a");
+
+      // Add click event listener to each navigation link
+      navLinks.forEach(function (link) {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          var target = this.getAttribute("href");
+          var targetElement = document.querySelector(target);
+          var targetPosition = targetElement.offsetTop - headerHeight;
+
+          // Scroll to the target position
+          window.scrollTo({
+            top: targetPosition,
+            behavior: "smooth"
+          });
+        });
+      });
+    });
+  </script>
+  <script>
+    window.addEventListener('DOMContentLoaded', adjustBodyPadding);
+
+    function adjustBodyPadding() {
+      var nav = document.querySelector('nav');
+      var headerMarginLeft = getComputedStyle(nav).marginLeft;
+      var headerMarginRight = getComputedStyle(nav).marginRight;
+      var headerPaddingLeft = getComputedStyle(nav).paddingLeft;
+      var headerPaddingRight = getComputedStyle(nav).paddingRight;
+      document.body.style.marginLeft = headerMarginLeft;
+      document.body.style.marginRight = headerMarginRight;
+      document.body.style.paddingLeft = headerPaddingLeft;
+      document.body.style.paddingRight = headerPaddingRight;
+    }
+  </script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      adjustTableLayout();
+      adjustWordWrap();
+    });
+
+    function adjustTableLayout() {
+      var table = document.getElementById('education-table');
+      var cells = table.getElementsByTagName('td');
+      var columnCount = table.rows[0].cells.length;
+
+      for (var i = 0; i < cells.length; i++) {
+        cells[i].style.padding = '8px';
+      }
+
+      for (var j = 0; j < columnCount; j++) {
+        var columnWidth = 100 / columnCount + '%';
+        table.rows[0].cells[j].style.width = columnWidth;
+      }
+    }
+
+    function adjustWordWrap() {
+      var table = document.getElementById('education-table');
+      var cells = table.getElementsByTagName('td');
+
+      for (var i = 0; i < cells.length; i++) {
+        cells[i].style.wordWrap = 'break-word';
+      }
+    }
+  </script>
+  <script>
+    function displaySkills() {
+      var skills = [
+        'Programming Languages: Java, Python, TypeScript, GoLang, C#, Bash, Shell, HTML, CSS, Bootstrap',
+        'Tools: Docker, Airflow, Splunk & ELK, Git, ITIL-ServiceNow, AWS, Tomcat, glide, Maven, pip, Npm, Nuget',
+        'Web Frameworks: RESTful API, React, FastAPI, Flask, Beego, Docker, GraphQL, OAuth2.0',
+        'Testing Frameworks: Jest, pytest, JUnit, Behave, Postman, Cypress, JMeter, Moq',
+        'Databases and Big Data: Postgres, MySQL, Oracle, Spark, HDFS, Pig, Hive'
+      ];
+
+      var options = {
+        strings: skills,
+        typeSpeed: 100, // typing speed in milliseconds
+        backSpeed: 0, // backspacing speed in milliseconds
+        loop: true, // loop through the skills
+        loopCount: Infinity, // number of times to loop (infinite)
+        showCursor: false // hide the cursor
+      };
+
+      var typed = new Typed('#skill-write', options);
+    }
+
+    // Call the function to display the skills when the page is loaded
+    document.addEventListener('DOMContentLoaded', displaySkills);
+
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-      color: #818181;
-  }
-  h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }  
-  .jumbotron {
-      background-color: #000080;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
-  }
-  .container-fluid {
-      padding: 60px 50px;
-  }
-  .bg-grey {
-      background-color: #E6E6FA;
-  }
-  .logo-small {
-      color: #f4511e;
-      font-size: 50px;
-  }
-  .logo {
-      color: #f4511e;
-      font-size: 200px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
-  }
-  .carousel-control.right, .carousel-control.left {
-      background-image: none;
-      color: #f4511e;
-  }
-  .carousel-indicators li {
-      border-color: #f4511e;
-  }
-  .carousel-indicators li.active {
-      background-color: #f4511e;
-  }
-  .item h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      font-weight: 400;
-      font-style: italic;
-      margin: 70px 0;
-  }
-  .item span {
-      font-style: normal;
-  }
-  .panel {
-      border: 1px solid #f4511e; 
-      border-radius:0 !important;
-      transition: box-shadow 0.5s;
-  }
-  .panel:hover {
-      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  }
-  .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
-      background-color: #fff !important;
-      color: #f4511e;
-  }
-  .panel-heading {
-      color: #fff !important;
-      background-color: #f4511e !important;
-      padding: 25px;
-      border-bottom: 1px solid transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-  }
-  .panel-footer {
-      background-color: white !important;
-  }
-  .panel-footer h3 {
-      font-size: 32px;
-  }
-  .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
-  }
-  .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #f4511e;
-      color: #fff;
-  }
-  .navbar {
-      margin-bottom: 0;
-      background-color: #000080;
-      z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
-  }
-  footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #A9A9A9;
-  }
-  .slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-  }
-  </style>
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <script>$(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $("footer a[href='#myPage']").on('click', function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="https://instagram.com/harshsaini697">Photo Gallery</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-center">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skillset">SKILL SET</a></li>
-        <li><a href="#education">EDUCATION </a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          // Store hash
+          var hash = this.hash;
 
-<div class="jumbotron text-center">
-  <h1>HARSH SAINI</h1> 
-  <p>I AM THE TIME PERSON OF THE YEAR 2006 PS: Since EVERYONE was the Time person of the year 2006.</p> 
-  
-</div>
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>About Me</h2><br>
-      <h5> Aspiring Softwar Engineer with wide spectrum of skills.</h5>
-      <br><button class="btn btn-default btn-lg"><a href="https://www.linkedin.com/in/harshsaini697/">Get in Touch</button></a>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>
-  </div>
-</div>
-
-<!-- Container (SKill set Section) -->
-<div id="skillset" class="container-fluid text-center">
-  <h1>SKILL SET</h1>
-  <h4>My Learning and Capabilities</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <h2> Programming Languages</h2>
-      <h4>JAVA</h4>
-      <h4>Python</h4>
-      <h4>C++</h4>
-    </div>
-    <div class="col-sm-4">
-      <h2> Concepts</h2>
-      <h4>Artificial Intelligence</h4>
-      <h4>Machine Learning</h4>
-      <h4>Web Data Mining</h4>
-      <h4>Web Crawling</h4>
-      <h4>Software Testing <br>(System, Unit and Integration Testing)</h4>
-    </div>
-    <div class="col-sm-4">
-      <h2>PROJECTS</h2>
-      <h4>MaxConnect4</h4>
-      <h4>Medical Recommendation System</h4>
-      <h4>Search Engine and College Portal </h4>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <!--<span class="glyphicon glyphicon-leaf logo-small"></span>-->
-      <h2>Publications</h2>
-      <a href="IJERTV5IS100255.pdf"><h4>Medical Recommendation sytem using crawler</h4></a>
-      <h4>ISBN 2278:0101</h4>
-    </div>
-    <div class="col-sm-4">
-      <h2>CERTIFIED</h2>
-      <h4>Java Masterclass Udemy</h4>
-      <h4>C++ Intermediate</h4>
-      <h4>Deep leanring A to  Udemy</h4>
-      <p></p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h2 style="color:#303030;">Relevant Skills</h2>
-      
-      
-      <h4>Mobile Android/iOS Development</h4>
-      <h4>Website Development</h4>
-      <h4>Project Management and Planning</h4>
-      <h4>Intelli J IDE</h4>
-    </div>
-  </div>
-</div>
-
-<!-- Container (education Section) -->
-<div id="education" class="container-fluid text-center bg-grey ">
-  <h2>EDUCATION</h2><br>
-  <div class="row text-center">
-    <div class="col">
-      <h1> Masters <br> Computer Science</h1>
-        <h4>UNIVERSITY OF TEXAS
-          <h4> Arlington</h4>
-      </div>
-    
-    <div class="col">
-      <h1> Bachelors <br>Computer Science </h1>
-      <h4>JAYPEE INSTITUTE OF INFORMATION TECHNOLOGY</h4>
-      <h4> Noida </h4>
-      </div>
-  
-    </div>
-  <br>
-    </div>
-    <div id="quotes" class="text-center">
-  <h2>Some Famous Quotes I find Appealing</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <h4>"Life is about making an impact, not making an income."<br><span> -Kevin Kruse</span></h4>
-      </div>
-      <div class="item">
-        <h4>"Strive not to be a success, but rather to be of value. "<br><span> –Albert Einstein</span></h4>
-      </div>
-      <div class="item">
-        <h4>"The mind is everything. What you think you become. "<br><span> –Buddha </span></h4>
-      </div>
-      <div class="item">
-        <h4>"TYou can never cross the ocean until you have the courage to lose sight of the shore."<br><span> –Christopher Columbus  </span></h4>
-      </div>
-      <div class="item">
-        <h4>"The best revenge is massive success. "<br><span> –Frank Sinatra</span></h4>
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-
-<!-- Container (Pricing Section) --
-<div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Basic</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
-</div>>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <h4>Contact me and I'll get back to you within 24 hours.
-        <h4><span class="glyphicon glyphicon-map-marker"></span> Dallas, US</h4>
-      <h4><span class="glyphicon glyphicon-phone"></span> +1 4693459219
-        <h4><span class="glyphicon glyphicon-envelope"></span> harshsaini697@gmail.com</h4>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Your Message" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-</footer>
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
       });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
 
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
+      $(window).scroll(function () {
+        $(".slideanim").each(function () {
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    })</script>
 
 </body>
+
 </html>
